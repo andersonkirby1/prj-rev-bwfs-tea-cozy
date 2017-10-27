@@ -1,0 +1,159 @@
+.main-container{
+  width:100%
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  padding-top: 70px;
+}
+
+
+body, a{
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+
+}
+
+.navbar{
+  background: black;
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+  padding: 5px;
+  margin-bottom: 10px;
+  top: 10px;
+  text-decoration: underline;
+}
+
+.navbar-container{
+  display: flex;
+  width: 800px;
+  height:70px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.navbar-left{
+  display:flex;
+}
+
+.navbar-right{
+  display:flex;
+}
+
+.navbar a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 15px 25px;
+  font-size: 22px;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+}
+
+.navbar a:hover {
+  color: rgb(255, 255, 255);
+  background-color: gray;
+}
+
+.navbar img:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+/*End of Nav Code*/
+
+/*Mission Section*/
+.mission-text{
+  background-color: black;
+}
+.mission-image {
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-left: 30px;
+}
+
+#mission-pic{
+  background-image: url("../images/img-mission-background.jpg");
+}
+
+/*Tea Section*/
+
+#Tea{
+
+}
+.menu-item img{
+  width: 300px;
+  height: 200px;
+}
+
+.menu{
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-item{
+display: flex;
+flex-direction: column;
+margin: auto 25px;
+}
+
+.menu-item h4{
+  margin-top:10px;
+}
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.locations-image{
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.locations-text{
+main-container: 15px;
+}
+
+.box{
+  display: flex;
+  justify-content:space-between;
+  width: 980px;
+  margin: 40px;
+}
+.box-text{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 1;
+}
+
+.contact-text{
+  align-items: center;
+  height: 200px;
+}
+
+footer{
+  margin-left: 20px;
+  text-align: left;
+  font-size: 10px;
+}
